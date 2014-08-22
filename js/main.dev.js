@@ -96,6 +96,10 @@ setTimeout(function() {
 /*-----------------------------------------------------------------------------------*/
 	
 
+$('.goto').click(function(e){
+    $('html,body').scrollTo(this.hash,this.hash,  {'axis':'y'});
+    e.preventDefault();
+});
 
 
 
