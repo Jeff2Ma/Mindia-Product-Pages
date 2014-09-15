@@ -1,7 +1,7 @@
 mindia-product-pages
 ====================
 
-* Mindia 主题主页源代码
+#Mindia 主题主页源代码
 
 线上demo：http://devework.com/theme/mindia/
 
