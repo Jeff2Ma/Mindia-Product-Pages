@@ -68,7 +68,7 @@ nav{z-index:999;width:100%;height:80px}
     -moz-osx-font-smoothing: grayscale;
 
 /*	text-indent: -99999em;background-image: url(../img/font-mini.png);background-repeat: no-repeat;*/
-	margin-bottom: 30px}
+	line-height: 60px;}
 /*.page2 .row h3{background-position: 0 -166px;}
 .page3 .row h3{background-position: 0 -236px;}
 .page4 .row h3{background-position: 0 -313px;}
@@ -147,11 +147,13 @@ body{-webkit-backface-visibility:hidden}.animated{-webkit-animation-duration:1s;
 /*小小兼容移动设备*/
 .mobile-tip{display: none;}
 
-@media only screen and (max-width : 320px) {
-.mobile-tip{display: block;font-size: 14px;}
-.page1 h1,.page1 h2{text-indent: 0;background:none;color:#fff}
-.page1 hr{display: none;}
-.page2 .row h3,.page3 .row h3,.page4 .row h3,.page5 .row h3{text-indent: 0;background:none;font-size:1.878em;line-height: 1.878em;}
+@media only screen and (max-width : 767px) {
+.page2 .row h3,.page3 .row h3,.page4 .row h3,.page5 .row h3,.siyuan,.page1 h2{
+	font-size: 30px;
+}
+.page1 h2{
+	font-size: 60px!important;
+}	
 }
 
 @font-face {font-family: 'siyuan';
