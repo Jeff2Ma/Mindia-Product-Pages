@@ -19,6 +19,14 @@ a:hover{color:#181b1e}
 p{font-weight:200;color:#98999C;line-height:36px}
 p a{border-bottom:1px dotted #46484a;-webkit-transition:all 0.5s ease-out;-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;transition:all 0.5s ease-out}
 p a:hover{border-bottom:1px dotted #181b1e}
+/*思源黑体webfont*/
+@font-face {font-family: 'siyuan';
+    src: url('../font/webfont.eot');
+    src: url('../font/webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../font/webfont.woff') format('woff'),
+    url('../font/webfont.ttf') format('truetype'), 
+    url('../font/webfont.svg#webfont') format('svg'); 
+}
 .button-white{border-radius:20px;color:#333;padding:10px 20px;letter-spacing:2px;background:#FFF;font-weight:600;border:3px solid #FFF;cursor:pointer;text-transform:uppercase;font-size:12px;text-align:center;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}
 .button-white:hover{color:#FFF;border:3px solid #FFF;background:none}
 .button-blue{border-radius:20px;color:#FFF;padding:10px 20px;letter-spacing:2px;background:#74bee1;font-weight:600;border:3px solid #74bee1;cursor:pointer;text-transform:uppercase;font-size:12px;text-align:center;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out}
@@ -155,12 +163,3 @@ body{-webkit-backface-visibility:hidden}.animated{-webkit-animation-duration:1s;
 	font-size: 60px!important;
 }	
 }
-
-@font-face {font-family: 'siyuan';
-    src: url('../font/webfont.eot'); /* IE9*/
-    src: url('../font/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../font/webfont.woff') format('woff'), /* chrome、firefox */
-    url('../font/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('../font/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
-}
-
